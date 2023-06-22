@@ -1,0 +1,31 @@
+{
+  "name": "json-patch-sequelize",
+  "version": "0.1.0",
+  "description": "Apply json-patch mutations to a sequelize model",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claytongulick/json-patch-sequelize.git"
+  },
+  "keywords": [
+    "json",
+    "patch",
+    "json-patch",
+    "sequelize"
+  ],
+  "author": "Clayton Gulick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/claytongulick/json-patch-sequelize/issues"
+  },
+  "homepage": "https://github.com/claytongulick/json-patch-sequelize#readme",
+  "dependencies": {
+    "fast-json-patch": "^3.1.1",
+    "json-patch-rules": "^0.1.0",
+    "sequelize": "^6.32.1"
+  }
+}
