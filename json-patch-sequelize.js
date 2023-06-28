@@ -1,3 +1,4 @@
+import { Sequelize } from 'sequelize';
 import { DataTypes, Model } from 'sequelize';
 import * as jsonPatch from 'fast-json-patch';
 import * as JSONPatchRules from 'json-patch-rules';
@@ -56,4 +57,3 @@ export default class PatchableModel extends Model {
     }
 
 }
-

@@ -1,6 +1,6 @@
 {
   "name": "json-patch-sequelize",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Apply json-patch mutations to a sequelize model",
   "main": "index.js",
   "scripts": {
